@@ -1,0 +1,14 @@
+<section>
+
+        <h1>Total price: {{tprice}}</h1>
+		
+		<div>
+		    <div ng-repeat="item in disable">
+				<input type="checkbox" disabled>{{item.feature}}
+			</div>
+			<div ng-repeat="item in artists">
+				<input type="checkbox" ng-click="detect(artists.indexOf(item))">{{item.feature}}
+			</div>
+		</div>
+
+</section>

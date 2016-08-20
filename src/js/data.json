@@ -1,0 +1,79 @@
+{
+  "static_web":  {
+                "hierarchy":"no",
+                "name":"static",
+                "base_features":[
+                                  {
+                                    "feature":"feature 1",
+                                    "price":10
+                                  },
+                                  {
+                                    "feature":"feature 2",
+                                    "price":20
+                                  },
+                                  {
+                                    "feature":"feature 3",
+                                    "price":30
+                                  }
+                                ],
+                "description":" ",
+                "features": [
+                              {
+                                "feature":"feature1",
+                                "price":10
+                              },
+                              {
+                                "feature":"feature2",
+                                "price":20
+                              },
+                              {
+                                "feature":"feature3",
+                                "price":30
+                              },
+                              {
+                                "feature":"price per page",
+                                "price":20
+                              }
+                            ]
+             },
+  "dynamic_web": {
+                "hierarchy":"yes",
+                "name":"dynamic",
+                "base_features":[
+                                  {
+                                    "feature":"disabled1 and selected",
+                                    "price":20
+                                  },
+                                  {
+                                    "feature":"disabled2 and selected",
+                                    "price":30
+                                  },
+                                  {
+                                    "feature":"disabled3 and selected",
+                                    "price":40
+                                  }
+                                ],
+                "children":     {
+                                    "wordpress":{
+                                                     "hierarchy":"no",
+                                                      "name":" ",
+                                                      "description":" ",
+                                                      "features": [
+                                                                      {
+                                                                        "feature":"feature1",
+                                                                        "price":10
+                                                                      },
+                                                                      {
+                                                                        "feature":"feature2",
+                                                                        "price":20
+                                                                      },
+                                                                      {
+                                                                        "feature":"feature2",
+                                                                        "price":30
+                                                                      }
+                                                                ]
+                                                }         
+
+                                }
+             }         
+}
